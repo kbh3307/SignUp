@@ -33,6 +33,7 @@
         android:hint="Password"/>
 
     <Button
+        android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="로그인"
@@ -46,6 +47,7 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/findPwTxt"
             android:layout_width="wrap_content"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
